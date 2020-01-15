@@ -37,7 +37,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Sid J Reddy**: Saturday immediately after his live session
 * **Matthew Sims**: Thursday 2pm - 3pm PST 
 * **Mike Tamir**: Tuesday immediately after his live session
-* **Drew Plant**: Sunday 11am - 12 PST
+* **Drew Plant**: Monday 6pm - 7 PST
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
@@ -147,6 +147,15 @@ will be released around the last live session of the week and due approximately 
   </ul></td>
   <td></td>
   <td>January&nbsp;12</td>
+</tr>
+<tr>
+  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
+  <td><strong>Assignment 1</strong>
+  <ul>
+    <li>Information Theory
+  </ul></td>
+  <td></td>
+  <td>January&nbsp;19</td>
 </tr>
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
