@@ -17,7 +17,7 @@
 # ------------------------------------------------------------------
 
 # Question 1 (/1): What is BinaryEntropy(0.67)?
-information_theory_code_1: 0.91492
+information_theory_code_1: 0.91493
 
 
 # ------------------------------------------------------------------
@@ -25,7 +25,7 @@ information_theory_code_1: 0.91492
 # ------------------------------------------------------------------
 
 # Question 1 (/1): What is PMI(rainy, cloudy)?
-information_theory_a_1: 0.32192
+information_theory_a_1: 0.32193
 
 # Question 2 (/1): What is PMI(washington, post)?
 information_theory_a_2: 7.81378
@@ -55,7 +55,6 @@ information_theory_b_3:
  - A
 
 
-
 # ------------------------------------------------------------------
 # | Section (C): Cross-Entropy and KL Divergence (10 points)  | 
 # ------------------------------------------------------------------
@@ -75,7 +74,6 @@ information_theory_c_3:
 # (This question is multiple choice.  Delete all but the correct answer).
 information_theory_c_4: 
  - Zero
-
 
 
 # Question 5 (/1): What if the model put all the mass on class 1?  What is the cross entropy?
