@@ -58,17 +58,12 @@ past_hard_deadline_grade: 0
 # (Delete the incorrect answers.)
 general_questions:
   - Public post on Piazza
-  - Private post on Piazza addressed to all instructors so they can load balance
-  - Private post on Piazza addressed to your live session instructor
-  - Instructor email list
 
 # 9. Which of the following are appropriate places to ask questions that cannot be made
 #    public (e.g. ones that contain assignment solutions?)
 # (Delete the incorrect answers.)
 private_questions:
   - Private post on Piazza addressed to all instructors so they can load balance
-  - Private post on Piazza addressed to your live session instructor
-  - Instructor email list
 
 # 10. If you need something beyond the late day policy, what do you do?
 # (Delete the incorrect answers.)
@@ -80,8 +75,6 @@ beyond_late_days:
 # (Delete the incorrect answers.)
 async_source:
   - The "Async to watch" column in the syllabus
-  - Watch "Unit x" while preparing for "Week x"'s live session.
-  - Ask on Piazza
 
 # 12. This course isn't known as a super easy class and I should be cautious about taking it
 #     in conjunction with:
