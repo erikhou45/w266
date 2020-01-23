@@ -18,10 +18,10 @@
 # ------------------------------------------------------------------
 
 # Question 1.1 (/1): What are the dimensions of W?  (Hint... don't change the dimensionality of the answer.)
-neural_network_basics_a_1_1: [d10]
+neural_network_basics_a_1_1: [10]
 
 # Question 1.2 (/1): What are the dimensions of b?  (Hint... don't change the dimensionality of the answer.)
-neural_network_basics_a_1_2: [d1]
+neural_network_basics_a_1_2: [1]
 
 
 # ------------------------------------------------------------------
@@ -29,16 +29,16 @@ neural_network_basics_a_1_2: [d1]
 # ------------------------------------------------------------------
 
 # Question 1 (/1): What are the dimensions of W?
-neural_network_basics_b_1: [d10]
+neural_network_basics_b_1: [10]
 
 # Question 2 (/1): What are the dimensions of b?
-neural_network_basics_b_2: [d1]
+neural_network_basics_b_2: [1]
 
 # Question 3 (/1): What are the dimensions of x?
-neural_network_basics_b_3: [d30, d10]
+neural_network_basics_b_3: [30, 10]
 
 # Question 4 (/1): What are the dimensions of z?
-neural_network_basics_b_4: [d10]
+neural_network_basics_b_4: [10]
 
 
 # ------------------------------------------------------------------
@@ -74,10 +74,10 @@ neural_network_basics_e_1: 0.24473
 neural_network_basics_e_2: 0.58805
 
 # Question 3.1 (/1): What is the dimension of W3 above if it were a three class problem instead of a binary one?
-neural_network_basics_e_3_1: [d10, d3]
+neural_network_basics_e_3_1: [10, 3]
 
 # Question 3.2 (/1): What is the dimension of b3 above if it were a three class problem?
-neural_network_basics_e_3_2: [d3]
+neural_network_basics_e_3_2: [3]
 
 
 
