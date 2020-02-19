@@ -198,7 +198,7 @@ will be released around the last live session of the week and due approximately 
   <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
   <td><strong>Assignment 5</strong>
   <ul>
-    <li>TBD
+    <li>Language Models
   </ul></td>
   <td>February&nbsp;15</td>
   <td>February&nbsp;23</td>
