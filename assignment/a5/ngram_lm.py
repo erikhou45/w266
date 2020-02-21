@@ -153,7 +153,12 @@ class AddKTrigramLM(BaseLM):
 
         #### YOUR CODE HERE ####
         # Compute context counts
-
+        for context, context_dict in self.counts.items():
+            context_total = 0
+            for word, word_count in context_dict.items():
+                context_total += word_count
+            
+            self.context_totals[context] = context_total
 
         #### END(YOUR CODE) ####
         # Freeze defaultdicts so we don't accidentally modify later.
@@ -193,7 +198,14 @@ class AddKTrigramLM(BaseLM):
         #### YOUR CODE HERE ####
         # Hint: self.counts.get(...) and self.context_totals.get(...) may be
         # useful here. See note in dict_notes.md about how this works.
-
+        
+        c_context = self.context_totals.get(context,0)
+        c_word = self.counts.get(context,{}).get(word,0)
+        
+        if c_context+k*len(self.words) == 0 and (c_word+k) == 0: #include this condition to avoid division by zero error when k = 0.0
+            return 0.0
+        else:
+            return (c_word+k)/(c_context+k*len(self.words))
 
 
         #### END(YOUR CODE) ####
