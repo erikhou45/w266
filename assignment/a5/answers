@@ -86,10 +86,10 @@ language_models_notebook_a_4:
 # ------------------------------------------------------------------
 
 # Question 1a (/2): What is the average number of times we see a trigram that appears at least once?
-language_models_notebook_e_1a: 0.00000
+language_models_notebook_e_1a: 1.33746
 
 # Question 1b (/1): What is the average number of times we see all trigrams (i.e. including those that appeared zero times)?  Hint - look at the size of the vocabulary!
-language_models_notebook_e_1b: 0.00000
+language_models_notebook_e_1b: 3.628311111111111e-08
 
 # Question 2 (/2): Which would you expect would perform better?
 # (This question is multiple choice.  Delete all but the correct answer).
