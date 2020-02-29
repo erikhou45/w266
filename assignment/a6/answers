@@ -19,16 +19,16 @@
 # ------------------------------------------------------------------
 
 # Question 1 (/1): In one sentence, describe what your model is learning.
-project_data_1_1: your answer
+project_data_1_1: Aspect-based sentiment analysis using BERT
 
 # Question 2 (/1): Who created your training data?
-project_data_1_2: your answer
+project_data_1_2: I'm using the SemEval-2016 Task 5 data
 
 # Question 3 (/1): How many training records do you have?
-project_data_1_3: 0
+project_data_1_3: 14614
 
 # Question 4 (/1): How many test records do you have?
-project_data_1_4: 0
+project_data_1_4: 6255
 
 
 
@@ -46,17 +46,12 @@ project_data_1_4: 0
 # Question 1 (/3): What is BLEU?
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_introduction_a_1: 
- - A sequence to sequence LSTM-based machine translation algorithm?
  - A metric for machine translation centered on a notion of precision of a candidate with respect to reference text.
- - A metric for machine translation centered on a notion of recall of a candidate with respect to reference text.
 
 # Question 2 (/3): What are the key parts of IBM Model 1?
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_introduction_a_2: 
- - Term level translation model
- - Phrase table
  - Alignment model
- - Neural network attention
 
 
 
@@ -82,20 +77,15 @@ machine_translation_a_1:
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_a_2: 
  - If you had a reliable scoring function, s(f, e), to score a translation from French to English, you would use it in your MT system to score candidates.
- - No computable proxy for human judgement has been found.
 
 # Question 3 (/1): The max credit idea is required to prevent what?
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_a_3: 
- - Ensuring that each reference text can only provide a bounded amount of support.  High scoring candidates must therefore have support across multiple references.
  - Giving high scores to degenerate translations that blindly list common words.
 
 # Question 4 (/1): How does BLEU score prevent the candidate [the] being scored highly?
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_a_4: 
- - A single token will not score highly on recall against a longer piece of text.
- - Max Credit
- - ngrams
  - Brevity penalty
 
 # Question 5 (/1): Why is it still important to run human evaluations?  (There is more than one right answer so leave all the correct ones :)
@@ -110,19 +100,16 @@ machine_translation_a_5:
 # ------------------------------------------------------------------
 
 # Question 1 (/1): In Sequence to Sequence Learning with Neural Networks 2014, how much additional BLEU score did they achieve by reversing the input sentence?
-machine_translation_b_1: 0.00000
+machine_translation_b_1: 4.42000
 
 # Question 2 (/1): The authors of the paper believe reversing input to the encoder helps to...
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_b_2: 
  - reduce an otherwise large minimal time lag
- - only improve confidence predictions at the start of the decoding
- - reduce the average distance between words input in the encoder and the corresponding target language words produced in the decoder
 
 # Question 3 (/1): What issues are there with the seq2seq model in the paper? (There is more than one right answer so leave all the correct ones.)
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_b_3: 
- - They are extractive, not abstractive translations
  - Quality decreases with sentence length, likely due to the long distance connections and the need for the encoder to compress an arbitrary amount of input into a fixed width vector
  - RNNs do not parallelize very well, making them slow to train
 
@@ -134,10 +121,7 @@ machine_translation_b_3:
 # Question 1 (/1): An encoder decoder model...
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_c_1: 
- - encodes the corruption of the noisy channel from an entire input sentence which is then decoded by the decoder
  - encodes a whole input sentence into a fixed length vector from which a translation can be decoded
- - encodes individual words into translated embeddings that are contextualized for later use when decoded
- - encodes words in the target language for decoding
 
 
 # ------------------------------------------------------------------
@@ -148,15 +132,13 @@ machine_translation_c_1:
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_d_1: 
  - a query vector is sent back from the decoder to the encoder
- - the softmax calculation in the attention mechanism has a fixed number of inputs
- - the encoder state closest to the query vector is returned to the decoder
  - the softmax outputs can be visualized similar to the alignment models from IBM Model 1
 
 # Question 2 (/5): If the decoder query is [3, 5, 8] and the encoder states are [3, 2, -8], [1, -2, 5], [3, 6, 9], what is the softmax input?
-machine_translation_d_2: [d0, d1, d2]
+machine_translation_d_2: [-45, 33, 111]
 
 # Question 3 (/5): Assume, though it is not, the previous answer was [0, 1, -1] but changing nothing else, what is the vector provided to the decoder?
-machine_translation_d_3: [d0, d1, d2]
+machine_translation_d_3: [1.66951809,-0.30084153,2.17865217]
 
 
 # ------------------------------------------------------------------
@@ -172,7 +154,4 @@ machine_translation_d_1:
 # Question 2 (/1): According to the Sequence to Sequence Learning with Neural Networks paper in part b, a beam size of how large provides most of the benefits?
 # (This question is multiple choice.  Delete all but the correct answer).
 machine_translation_d_2: 
- - 1
  - 2
- - 12
- - 1000
